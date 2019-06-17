@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Clock</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+</head>
+
+<body onload="OnPageLoad()">
+    <div id="main">
+        <h1>Pomorodo Clock</h1>
+        <table>
+            <tr>
+                <td>
+                    <h3>Work</h3>
+                </td>
+                <td>
+                    <h3>Break</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="sessionDec" class="colWidth"><i class="material-icons">-</i></button>
+                    <h3 id="sessionVal" class="colWidth"></h3>
+                    <button id="sessionInc" class="colWidth"><i class="material-icons">+</i></button>
+                </td>
+                <td>
+                    <button id="breakDec" class="colWidth"><i class="material-icons">-</i></button>                    
+                    <h3 id="breakVal" class="colWidth"></h3>
+                    <button id="breakInc" class="colWidth"><i class="material-icons">+</i></button>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+        <tr><td><h2 id="currentValText"></h2></td></tr>
+        <tr><td><span id="currentVal" class="center"></span></td></tr>
+        <tr><td>
+            <button id="play"><i id="playMI" class="material-icons" style="font-size:60px">play_arrow</i></button>
+            <button id="stop"><i class="material-icons" style="font-size:60px">stop</i></button>
+            <button id="reset"><i class="material-icons" style="font-size:60px">refresh</i></button>            
+        </td></tr>
+        </table>
+    </div>
+    </body>
+</body>
+<link rel="stylesheet" type="text/css" href="stylesheets\style.css">
+<script type="text/javascript" src="scripts\script.js"></script>
+
+</html>
